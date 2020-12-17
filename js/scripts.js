@@ -15,7 +15,7 @@ $(window).on('load', function () {
 		Preloder
 	--------------------*/
 	$(".loader").fadeOut();
-	$("#preloder").delay(400).fadeOut("slow");
+	$("#preloder").delay(300).fadeOut("slow");
 
 
 	/*------------------
@@ -84,7 +84,7 @@ $(window).on('load', function () {
 	--------------------*/
 	if ($('#typed-text').length > 0) {
 		var typed2 = new Typed('#typed-text', {
-			strings: ["HELLO, MY NAME IS", "IRWAN ANTONIO", "THIS IS MY PERSONAL CV"],
+			strings: ["HELLO THERE,", "MY NAME IS IRWAN ANTONIO", "THIS IS MY PERSONAL PORTOFOLIO"],
 			typeSpeed: 10,
 			loop: true,
 			backDelay: 2000
